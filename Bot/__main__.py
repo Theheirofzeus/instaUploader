@@ -3,7 +3,7 @@ from pyrogram.handlers import MessageHandler
 from Bot import app
 
 def start(client, message):
-    await message.reply("Hello imma downloader")
+    message.reply("Hello imma downloader")
     
 import requests
 
