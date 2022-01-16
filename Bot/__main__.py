@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.handlers import MessageHandler
 from Bot import app
 
-async def start(client, message):
+def start(client, message):
     await message.reply("Hello imma downloader")
     
 import requests
