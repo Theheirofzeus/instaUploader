@@ -1,7 +1,7 @@
 import requests
 import pyrogram 
 from pyrogram import filters, Message
-from Bot.main import app
+from Bot import app
 
 @app.on_message(filters.command("insta|Insta|INSTA"))
 def instadownloader(message):
