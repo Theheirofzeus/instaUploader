@@ -1,4 +1,4 @@
-from pyrogram import filters, Message
+from pyrogram import filters
 from pyrogram.handlers import MessageHandler
 from Bot import app
 
