@@ -1,12 +1,13 @@
 from pyrogram import filters
+
+import requests
+
 from pyrogram.handlers import MessageHandler
 from Bot import app
 
 def start(client, message):
     message.reply("Hello imma downloader")
     
-import requests
-
 def instadownloader(message):
     url = "https://instagram-media-downloader.p.rapidapi.com/tgbots/ig/load/post.php"
     message = update.effective_message
